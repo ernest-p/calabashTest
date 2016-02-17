@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/dlgTest"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TestDialog">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/rectangle_1" />
+
+    <ImageView
+        android:id="@+id/dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/ic_dismiss_right_margin"
+        android:layout_marginTop="@dimen/ic_dismiss_top_margin"
+        android:src="@mipmap/ic_launcher" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/test_view_top_margin" />
+
+</RelativeLayout>
